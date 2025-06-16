@@ -1,0 +1,48 @@
+:root {
+    --textPad: 10px;
+    --marginPx: 5px;
+    --blue: 2088B7;
+}
+
+body {
+    background-color: LightGray;
+}
+
+header {
+    background-color: CornflowerBlue;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.centercolumn {
+    flex: 2;
+    background-color: Tomato;
+    padding: 10px;
+}
+
+.leftcolumn {
+    flex: 1;
+    background-color: Cyan;
+    width: 10%;
+}
+
+.rightcolumn {
+    flex: 1;
+    background-color: Cyan;
+    width: 10%;
+}
+
+footer {
+    background-color: Lime;
+    height: 50px;
+}

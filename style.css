@@ -1,0 +1,48 @@
+:root {
+    --blue: #2088b7;
+    --lightBlue: #87cefa;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+main {
+}
+
+header {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--lightBlue);
+    border-style: solid;
+    border-color: var(--blue);
+    border-radius: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: silver;
+    background-color: var(--lightBlue);
+    border-style: solid;
+    border-color: var(--blue);
+    border-radius: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.column {
+    flex: 1;
+    background-color: var(--lightBlue);
+    padding: 20px;
+    border-style: solid;
+    border-color: var(--blue);
+    border-radius: 40px;
+}
